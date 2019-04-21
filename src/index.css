@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  color: #2c2e31;
+  box-sizing: border-box;
+  font-family: "Noto Sans JP", sans-serif;
+  padding: 5rem 0 3.5rem;
+}
+body * {
+  color: inherit;
+  box-sizing: inherit;
+  font-family: "Noto Sans JP", sans-serif;
+}

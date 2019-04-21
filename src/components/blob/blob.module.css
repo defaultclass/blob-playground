@@ -1,0 +1,26 @@
+.blob {
+  width: 85vw;
+  height: 85vw;
+  background-color: #fbab7e;
+  background: linear-gradient(62deg, #fbab7e 0%, #f7ce68 100%);
+  margin: 0 auto 5rem;
+  background-size: 400% 400%;
+  animation: movingGradient 8s ease infinite;
+}
+
+@keyframes movingGradient {
+  0%,
+  100% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+@media only screen and (min-width: 440px) {
+  .blob {
+    width: 15rem;
+    height: 15rem;
+  }
+}

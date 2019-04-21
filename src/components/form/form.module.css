@@ -1,0 +1,36 @@
+.form {
+  text-align: center;
+  display: block;
+}
+.input {
+  padding: 1rem 0;
+  font-size: 1.25rem;
+  border: none;
+  text-align: center;
+  border-bottom: 4px solid #d9e1e8;
+  user-select: none;
+  cursor: pointer;
+  width: 85vw;
+  position: relative;
+  transition: 0.25s ease;
+}
+.input:hover,
+.input:focus {
+  border-color: rgba(249, 78, 63, 0.3);
+  background-color: rgba(249, 78, 63, 0.15);
+}
+.input:focus {
+  outline: none;
+}
+
+.label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-size: 1.25rem;
+}
+
+@media only screen and (min-width: 440px) {
+  .input {
+    width: 25rem;
+  }
+}
