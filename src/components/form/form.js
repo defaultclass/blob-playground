@@ -6,7 +6,9 @@ const Form = ({ value, status, handleSubmit }) => {
   const copyStatus = status ? "Copied" : "Copy";
   return (
     <form className={styles.form}>
-      <label className={styles.label}>{copyStatus} Border Radius CSS</label>
+      <label htmlFor="copyCSS" className={styles.label}>
+        {copyStatus} Border Radius CSS
+      </label>
       <input
         type="text"
         id="copyCSS"
